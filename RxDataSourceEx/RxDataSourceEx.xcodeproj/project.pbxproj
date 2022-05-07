@@ -78,9 +78,9 @@
 		E91E74D12826484A0036C782 /* RxDataSourceEx */ = {
 			isa = PBXGroup;
 			children = (
+				E91E74EA28264A070036C782 /* main */,
 				E91E74E7282648870036C782 /* appDelegate */,
 				E91E74E6282648750036C782 /* resources */,
-				E91E74E82826495D0036C782 /* MainViewController.swift */,
 			);
 			path = RxDataSourceEx;
 			sourceTree = "<group>";
@@ -102,6 +102,38 @@
 				E91E74D42826484A0036C782 /* SceneDelegate.swift */,
 			);
 			path = appDelegate;
+			sourceTree = "<group>";
+		};
+		E91E74EA28264A070036C782 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				E91E74EB28264A130036C782 /* viewContoller */,
+				E91E74ED28264A550036C782 /* view */,
+				E91E74EC28264A420036C782 /* viewModel */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		E91E74EB28264A130036C782 /* viewContoller */ = {
+			isa = PBXGroup;
+			children = (
+				E91E74E82826495D0036C782 /* MainViewController.swift */,
+			);
+			path = viewContoller;
+			sourceTree = "<group>";
+		};
+		E91E74EC28264A420036C782 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		E91E74ED28264A550036C782 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
