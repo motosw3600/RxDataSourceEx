@@ -13,6 +13,7 @@
 		E91E74DC2826484C0036C782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E91E74DB2826484C0036C782 /* Assets.xcassets */; };
 		E91E74DF2826484C0036C782 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E91E74DD2826484C0036C782 /* LaunchScreen.storyboard */; };
 		E91E74E92826495D0036C782 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91E74E82826495D0036C782 /* MainViewController.swift */; };
+		E9775A3128264DAF0076885C /* mainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9775A3028264DAF0076885C /* mainViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E91E74DE2826484C0036C782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E91E74E02826484C0036C782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E91E74E82826495D0036C782 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E9775A3028264DAF0076885C /* mainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 		E91E74EC28264A420036C782 /* viewModel */ = {
 			isa = PBXGroup;
 			children = (
+				E9775A3028264DAF0076885C /* mainViewModel.swift */,
 			);
 			path = viewModel;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				E91E74D32826484A0036C782 /* AppDelegate.swift in Sources */,
 				E91E74D52826484A0036C782 /* SceneDelegate.swift in Sources */,
 				E91E74E92826495D0036C782 /* MainViewController.swift in Sources */,
+				E9775A3128264DAF0076885C /* mainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,7 +400,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DRL89Y339X;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RxDataSourceEx/Info.plist;
+				INFOPLIST_FILE = RxDataSourceEx/resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -424,7 +428,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DRL89Y339X;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RxDataSourceEx/Info.plist;
+				INFOPLIST_FILE = RxDataSourceEx/resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
