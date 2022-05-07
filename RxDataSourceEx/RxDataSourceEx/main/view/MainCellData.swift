@@ -19,7 +19,7 @@ enum MainCellData {
     }
 }
 
-protocol MainCellDataProtocol {
+protocol MainCellDataProtocol: AnyObject {
     func apply(item: MainCellData)
     static func cellHeight(item: MainCellData) -> CGFloat
 }
