@@ -14,6 +14,10 @@
 		E91E74DF2826484C0036C782 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E91E74DD2826484C0036C782 /* LaunchScreen.storyboard */; };
 		E91E74E92826495D0036C782 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91E74E82826495D0036C782 /* MainViewController.swift */; };
 		E9775A3128264DAF0076885C /* mainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9775A3028264DAF0076885C /* mainViewModel.swift */; };
+		E9775A3528264E380076885C /* SectionOfMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9775A3428264E380076885C /* SectionOfMain.swift */; };
+		E9775A3728264F270076885C /* MainCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9775A3628264F270076885C /* MainCellData.swift */; };
+		E9775A392826508A0076885C /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9775A382826508A0076885C /* MainCell.swift */; };
+		E9775A3B282650960076885C /* SubCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9775A3A282650960076885C /* SubCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		E91E74E02826484C0036C782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E91E74E82826495D0036C782 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E9775A3028264DAF0076885C /* mainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainViewModel.swift; sourceTree = "<group>"; };
+		E9775A3428264E380076885C /* SectionOfMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionOfMain.swift; sourceTree = "<group>"; };
+		E9775A3628264F270076885C /* MainCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCellData.swift; sourceTree = "<group>"; };
+		E9775A382826508A0076885C /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		E9775A3A282650960076885C /* SubCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +143,10 @@
 		E91E74ED28264A550036C782 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				E9775A3428264E380076885C /* SectionOfMain.swift */,
+				E9775A3628264F270076885C /* MainCellData.swift */,
+				E9775A382826508A0076885C /* MainCell.swift */,
+				E9775A3A282650960076885C /* SubCell.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -253,8 +265,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9775A3728264F270076885C /* MainCellData.swift in Sources */,
 				E91E74D32826484A0036C782 /* AppDelegate.swift in Sources */,
+				E9775A3B282650960076885C /* SubCell.swift in Sources */,
+				E9775A392826508A0076885C /* MainCell.swift in Sources */,
 				E91E74D52826484A0036C782 /* SceneDelegate.swift in Sources */,
+				E9775A3528264E380076885C /* SectionOfMain.swift in Sources */,
 				E91E74E92826495D0036C782 /* MainViewController.swift in Sources */,
 				E9775A3128264DAF0076885C /* mainViewModel.swift in Sources */,
 			);
